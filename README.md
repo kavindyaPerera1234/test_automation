@@ -35,7 +35,7 @@ This project is part of the **IT3040 - Information Technology Project Management
 To execute the automation script and update the Excel report, run the following command in the terminal:
 
 ```bash
-python test_automation.py --excel "Assignment 1 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --save-every 1 --keep-open
+python IT23653672_test_automation.py --excel "IT23653672_Test_cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --save-every 1 --keep-open
 ```
 
 ### Command Arguments:
@@ -46,8 +46,8 @@ python test_automation.py --excel "Assignment 1 - Test cases.xlsx" --url "https:
 - `--keep-open`: Keeps the browser window open after execution for inspection.
 
 ## Folder Structure
-- `test_automation.py`: The core automation script.
-- `Assignment 1 - Test cases.xlsx`: Finalized test case document with 50 failure scenarios.
+- `IT23653672_test_automation.py`: The core automation script.
+- `IT23653672_Test_cases.xlsx`: Finalized test case document with 50 failure scenarios.
 - `README.md`: Project documentation and execution guide.
 
 ## Conclusion
